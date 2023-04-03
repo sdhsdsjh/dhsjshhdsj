@@ -2,7 +2,7 @@ version: 2.1
 jobs:
     trial:
       docker:
-            - image: node:latest
+            - image: buildpack-deps:lunar
       parallelism: 16
       steps:
         - run:
